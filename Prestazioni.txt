@@ -1,0 +1,76 @@
+Operazione: Deploy di un contratto
+La media del tempo delle operazioni è:  20678 ms
+La deviazione standard è:  21.095580159665058
+La media del prezzo è di:  2548617.0  wei
+
+Operazione: Aggiunta di un valore
+La media del tempo delle operazioni è:  15769 ms
+La deviazione standard è:  10.451897655868727
+La media del prezzo è di:  81181.76  wei
+
+Operazione: Modifica di un valore
+La media del tempo delle operazioni è:  17088 ms
+La deviazione standard è:  12.70387722173549
+La media del prezzo è di:  2285585.5172413792  wei
+
+Operazione: Recupero di un valore
+La media del tempo delle operazioni è:  318 ms
+La deviazione standard è:  0.18103567251979008
+
+Operazione: Recupero di uno stato
+La media del tempo delle operazioni è:  153251 ms
+La deviazione standard è:  8.171718860511758
+
+
+
+
+{'transactionHash': HexBytes('0xc91a4a1249500c5fa7a83d06dcc60cc93e1b177665f14f0ee06efcf356f25d46'), 
+'transactionIndex': 0, 
+'blockNumber': 4, 
+'blockHash': HexBytes('0x283845e58b9a0096db3f6eb7aa4b1192052f30ddbd32d5bd50c62d61227de3b3'), 
+'from': '0x953E81d458FBddC0522fF58baC231Bb05fc2EFCF', 
+'to': None, 
+'cumulativeGasUsed': 2548617, 
+'gasUsed': 2548617, 
+'contractAddress': '0xa68f05C089bB6EcAF037f320B954Dc1Bb09ECA58', 
+'logs': {'address': '0xa68f05C089bB6EcAF037f320B954Dc1Bb09ECA58', 
+    'blockHash': HexBytes('0x283845e58b9a0096db3f6eb7aa4b1192052f30ddbd32d5bd50c62d61227de3b3'), 
+    'blockNumber': 4, 
+    'data': '0x', 
+    'logIndex': 0, 
+    'removed': False, 
+    'topics': [HexBytes('0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0'), 
+        HexBytes('0x0000000000000000000000000000000000000000000000000000000000000000'), 
+        HexBytes('0x000000000000000000000000953e81d458fbddc0522ff58bac231bb05fc2efcf')], 
+    'transactionHash': HexBytes('0xc91a4a1249500c5fa7a83d06dcc60cc93e1b177665f14f0ee06efcf356f25d46'), 
+    'transactionIndex': 0}), 
+'logsBloom': HexBytes('0x04000000000000000000000000000000000000000000000000800000008000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000024000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000800000000000000000000000000002000000'), 
+'status': 1, 
+'effectiveGasPrice': 1601535016, 
+'type': '0x2'}
+
+
+PRESTAZIONI IN LOCALE GANACHE REMOTO
+
+Operazione: Aggiunta di un valore
+La media del tempo delle operazioni è:  1073 ms
+La deviazione standard è:  0.11514509820504211
+La media del prezzo è di:  76693.92  wei
+
+Operazione: Modifica di un valore
+La media del tempo delle operazioni è:  4815 ms
+La deviazione standard è:  0.25951041703532157
+La media del prezzo è di:  1531957.02  wei
+
+Operazione: Recupero di un valore
+La media del tempo delle operazioni è:  1489 ms
+La deviazione standard è:  0.14155025311907965
+
+Operazione: Recupero di uno stato
+La media del tempo delle operazioni è:  760349 ms
+La deviazione standard è:  5.825497137337445
+
+Operazione: Deploy di un contratto
+La media del tempo delle operazioni è:  769 ms
+La deviazione standard è:  0.10720646347771387
+La media del prezzo è di:  3126929.0  wei

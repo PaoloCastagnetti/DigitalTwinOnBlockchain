@@ -1,0 +1,2 @@
+solc contracts/DT.sol --bin > compiled/CompiledBytecode.txt
+solc contracts/DT.sol --abi > compiled/CompiledAbi.txt
